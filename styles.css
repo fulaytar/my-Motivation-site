@@ -3,3 +3,12 @@
     margin-right: 20%;
     padding: 0; /* Знищення внутрішніх відступів, якщо вони є */
 }
+ul {
+    list-style: none;
+}
+header{
+      background-color: #E6E6FA;
+}
+footer{
+    background-color: #E6E6FA;
+}
