@@ -1,69 +1,267 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Смачна їдичка</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize/modern-normalize.css"
+    />
+    <!--Нормалізатор стилів-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--Підклюення шрифтів-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>FoodSta</title>
   </head>
-  <body class="body">
-    <!--https://nicepage.com/ru/ht/90907/nashe-glavnoe-menyu-html-shablon-->
-    <header>
-      <a href="/index.html">Смачна їдичка</a>
-      <nav>
-        <ul>
-          <li><a href="#">Акції</a></li>
-          <li><a href="#">Меню</a></li>
-          <li><a href="#">Зробити замовлення</a></li>
-          <!-- Додайте більше посилань на навігацію за потреби -->
+  <body>
+    <header class="header">
+      <a class="header-a" href="./index.html"
+        ><img src="./images/logo.png" alt="logo" width="66" height="52"
+      /></a>
+      <nav class="header-nav">
+        <ul class="header-nav-ul">
+          <li class="header-nav-ul-li1">
+            <a href="./index.html"><span class="home">Home</span></a>
+          </li>
+          <li class="header-nav-ul-li2"><a href="#">About</a></li>
+          <li class="header-nav-ul-li3"><a href="#">Service</a></li>
+          <li class="header-nav-ul-li4"><a href="#">Menu</a></li>
+          <li class="header-nav-ul-li5"><a href="#">Contact</a></li>
+          <li>
+            <button class="header-nav-ul-li-button" type="button">
+              Order Now
+            </button>
+          </li>
         </ul>
-        <address>
-          <ul>
-            <li>
-              <a href="mailto:fulaytar2405@gmail.com">fulaytar2405@gmail.com</a>
-            </li>
-            <li><a href="tel:+380664318305">+(380)664318305</a></li>
-          </ul>
-        </address>
       </nav>
     </header>
     <main>
-      <!--Section menu-->
-      <section>
-        <h1>Смачна їдичка</h1>
-        <p>Приготована з Любов'ю</p>
-        <button type="button">Зробити замовлення</button>
+      <!--Секція hero-->
+      <section class="sectionhero">
+        <h2 class="sectionhero-h">Enjoy Your Favorite Food From Anywhere</h2>
+        <p class="sectionhero-p">
+          With just a few clicks, you can have your favorite meals delivered
+          straight to your doorstep, no matter where you are. Order now and
+          enjoy a hassle-free and delicious meal from the comfort of your own
+          home.
+        </p>
+        <button class="sectionhero-button" type="button">Order Now</button>
+        <img
+          class="salatlogo"
+          src="./images/salatlogo.png"
+          alt="salat"
+          width="528"
+          height="528"
+        />
       </section>
-      <!--Section food-->
-      <section>
-        <ul>
-          <li>
-            <a href="#"><img src="./images/1.jpg" alt="Pizza" /></a>
-            <h2>Піца "Смачна"</h2>
-            <p>
-              Інградієнти: смачне тісто,курочка,бекон,помідори,соус
-              томатний,соус вершковий
+      <!--Секція 2-->
+      <section class="section-apple">
+        <img src="./images/apple.png" alt="apple" width="502" height="502" />
+        <h2 class="section-apple-h">
+          What&rsquo;s Special About Our Offerings
+        </h2>
+        <p class="section-apple-p">
+          With our platform, you can browse through a diverse selection of
+          cuisines and local restaurants, and choose from a variety of dishes
+          that cater to your specific taste buds.
+        </p>
+        <ul class="section-apple-ul">
+          <li class="section-apple-ul-li1">
+            <img
+              class="section-apple-ul-li1-img"
+              src="./images/rocket.svg"
+              alt="rocket"
+              width="48"
+              height="48"
+            />
+            <h3 class="section-apple-ul-li1-h">Fasest Delivery</h3>
+            <p class="section-apple-ul-li1-p">
+              Our advanced logistics system and dedicated delivery partners
+              ensure that your meals are delivered to you within 30-minutes.
             </p>
-            <h3>250 грн</h3>
           </li>
-          <li>
-            <a href="#"><img src="./images/2.jpg" alt="Burger" /></a>
-            <p>Інградієнти: булочка,котлета,сир,огірки,помідори,зелень,сир</p>
-            <h3>200 грн</h3>
-          </li>
-          <li>
-            <a href="#"><img src="./images/3.jpg" alt="Chicken" /></a>
-            <p>
-              Інградієнти: курячі крильця,мед,спеції, соєвий соус, гірчиця
-              негостра
+          <li class="section-apple-ul-li2">
+            <img
+              class="section-apple-ul-li2-img"
+              src="./images/palec.svg"
+              alt="palec"
+              width="48"
+              height="48"
+            />
+            <h3 class="section-apple-ul-li2-h">Easy To Order</h3>
+            <p class="section-apple-ul-li2-p">
+              You can browse through a wide variety of cuisines and restaurants,
+              select your favorite meals, and place your order in just a few
+              clicks.
             </p>
-            <h3>350 грн</h3>
+          </li>
+        </ul>
+        <button class="section-apple-button" type="button">Order Now</button>
+      </section>
+      <!--Секція 3-->
+      <section class="section-food">
+        <h2 class="section-food-h">Some of Our Favorites</h2>
+        <p class="section-food-p">Looking for something delicious?</p>
+        <ul class="section-food-list">
+          <li class="section-food-list-li">
+            <a href="#"
+              ><img
+                class="section-food-list-li-photo1"
+                src="./images/gamburger.png"
+                alt="gamburger"
+                height="315"
+                width="315"
+            /></a>
+          </li>
+          <li class="section-food-list-li">
+            <a href="#"
+              ><img
+                class="section-food-list-li-photo2"
+                src="./images/chicken.png"
+                alt="chicken"
+                height="315"
+                width="315"
+            /></a>
+          </li>
+          <li class="section-food-list-li">
+            <a href="#"
+              ><img
+                class="section-food-list-li-photo3"
+                src="./images/pasta.png"
+                alt="pasta"
+                height="315"
+                width="315"
+            /></a>
+          </li>
+          <li class="section-food-list-li">
+            <a href="#"
+              ><img
+                class="section-food-list-li-photo4"
+                src="./images/salat.png"
+                alt="salat"
+                height="315"
+                width="315"
+            /></a>
+          </li>
+          <li class="section-food-list-li">
+            <a href="#"
+              ><img
+                class="section-food-list-li-photo5"
+                src="./images/pizza.png"
+                alt="pizza"
+                height="315"
+                width="315"
+            /></a>
+          </li>
+          <li class="section-food-list-li">
+            <a href="#"
+              ><img
+                class="section-food-list-li-photo6"
+                src="./images/borshch.png"
+                alt="borshch"
+                height="315"
+                width="315"
+            /></a>
           </li>
         </ul>
       </section>
+      <!--Секція 4-->
+      <section class="section-reviews">
+        <h2 class="section-reviews-h">What our Customers Say</h2>
+        <p class="section-reviews-p">
+          Don't just take our word for it - see what our satisfied customers
+          have to say
+        </p>
+        <ul class="section-reviews-ul">
+          <li class="section-reviews-ul-li1">
+            <img
+              class="section-reviews-ul-li1-img"
+              src="./images/Stars.svg"
+              alt="stars"
+            />
+            <h3 class="section-reviews-ul-li1-h">
+              &quot;The Best app I have used to order food in a while, so many
+              options to choose from too, I would recommend to a freind, No
+              questions asked&quot;
+            </h3>
+            <article class="section-reviews-coment1">
+              <img
+                class="section-reviews-coment1-img"
+                src="./images/men.png"
+                alt="men"
+              />
+              <h4 class="section-reviews-coment1-name">Sumith Shah</h4>
+              <p class="section-reviews-coment1-p">Some Dude</p>
+              <img src="./images/divider.png" alt="divider" />
+            </article>
+          </li>
+          <li class="section-reviews-ul-li2">
+            <img
+              class="section-reviews-ul-li2-img"
+              src="./images/Stars.svg"
+              alt="stars"
+            />
+            <h3 class="section-reviews-ul-li2-h">
+              &quot;The ease with which I can just go in and order what i want
+              was amazing, It has been a very pleasant experience ordering from
+              this app&quot;
+            </h3>
+            <article class="section-reviews-coment2">
+              <img
+                class="section-reviews-coment2-img"
+                src="./images/women.png"
+                alt="women"
+              />
+              <h4 class="section-reviews-coment2-name">Sumith Shah</h4>
+              <p class="section-reviews-coment2-p">Some Dude</p>
+              <img src="./images/divider.png" alt="divider" />
+            </article>
+          </li>
+        </ul>
+      </section>
+      <!--Секція 5-->
+      <section>
+        <h2>Subscribe To Get Special Offers</h2>
+        <p>
+          Order now and receive 10% off your first meal with Enjoy Your Favorite
+          Food From Anywhere.
+        </p>
+        <input type="text" placeholder="Enter your email" />
+        <button type="button">Subscribe</button>
+        <img src="./images/banan.png" alt="banan" />
+      </section>
     </main>
     <footer>
-      <p>&copy; 2023 Смачна їдичка</p>
+      <section>
+        <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button type="button">Order Now</button></li>
+          </ul>
+        </nav>
+        <p>Subscribe</p>
+        <input type="text" placeholder="Enter your email" />
+        <button type="button">Subscribe</button>
+        <p>By subscribing you agree to with our Privacy Policy</p>
+      </section>
+      <section>
+        <ul>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Cookies Settings</a></li>
+        </ul>
+        <p>2022 FoodSta. All right reserved.</p>
+      </section>
     </footer>
   </body>
 </html>

@@ -1,0 +1,148 @@
+body{
+    font-family: Roboto,sans-serif;
+    color: #2C2C2C;
+    margin: 0;
+    padding: 0;
+    max-width: 1280px;;
+}
+ul{
+    list-style-type:none;
+}
+.header{
+    background-color: #FEFEFE;
+}
+header>nav>ul>li>a{
+    color: #2C2C2C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: none;
+}
+header>nav>ul>li>a:hover{
+    color: #BBF330;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+header>nav>ul>li>button{
+    border-radius: 30px;
+    background-color: #BBF330;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;/* 19.5px */
+    padding: 6px 18px;
+}
+header>nav>ul>li>button:hover{
+    background-color: #FFE450;;
+}
+.sectionhero-h{
+font-size: 48px;
+font-weight: 700;
+line-height: 1.2; /* 57.6px */
+}
+.sectionhero-p{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 24px */
+}
+.sectionhero-button{
+    border-radius: 30px;
+    background-color: #BBF330;
+    padding: 6px 18px;
+}
+.sectionhero-button:hover{
+    background-color: #FFE450;
+}
+.salatlogo{
+    border: 26px solid #FFE550;
+    border-radius: 580px;
+}
+.section-apple{
+    background-color: #FFE550;
+}
+.section-apple-h{
+font-size: 42px;
+font-weight: 700;
+line-height: 1.2; /* 50.4px */
+}
+.section-apple-p{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 24px */
+}
+.section-apple-ul-li1-h,.section-apple-ul-li2-h{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4; /* 25.2px */
+}
+.section-apple-ul-li1-p,.section-apple-ul-li2-p{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5; /* 21px */
+}
+.section-apple-button{
+    border: 2px solid #7EB101;
+    background-color: #FFF;
+    border-radius: 30px;
+    padding: 10px 22px;
+}
+.section-apple-button:hover{
+    background-color:#BBF330;
+}
+.section-food-h{
+text-align: center;
+font-size: 42px;
+font-weight: 700;
+}
+.section-food-p{
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.section-food-list-li-photo1,.section-food-list-li-photo2,.section-food-list-li-photo3,.section-food-list-li-photo4,.section-food-list-li-photo5,.section-food-list-li-photo6{
+    border-radius: 197.5px;
+    border: 16px solid #FFE550;
+    background-color: #FEFEFE;
+    padding: 16px;
+}
+.section-food-list-li-photo1:focus,
+.section-food-list-li-photo2:focus,
+.section-food-list-li-photo3:focus,
+.section-food-list-li-photo4:focus,
+.section-food-list-li-photo5:focus,
+.section-food-list-li-photo6:focus
+{
+    border: 16px solid #BBF330;
+}
+.section-food-list-li-photo1:hover,
+.section-food-list-li-photo2:hover,
+.section-food-list-li-photo3:hover,
+.section-food-list-li-photo4:hover,
+.section-food-list-li-photo5:hover,
+.section-food-list-li-photo6:hover
+    {
+            border: 16px solid #BBF330;
+}
+.section-reviews{
+    background-color: #FFE550;;
+}
+.section-reviews-h{
+font-size: 42px;
+font-weight: 700;}
+.section-reviews-p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-reviews-ul-li1,.section-reviews-ul-li2{
+    background-color: #FEFEFE;
+}
+.section-reviews-coment1-name{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.5;/* 21px */
+}
+.section-reviews-coment1-p,.section-reviews-coment2-p{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;/* 21px */
+}
