@@ -43,21 +43,25 @@
     <main>
       <!--Секція hero-->
       <section class="sectionhero">
-        <h2 class="sectionhero-h">Enjoy Your Favorite Food From Anywhere</h2>
-        <p class="sectionhero-p">
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button class="sectionhero-button" type="button">Order Now</button>
-        <img
-          class="salatlogo"
-          src="./images/salatlogo.png"
-          alt="salat"
-          width="528"
-          height="528"
-        />
+        <div class="hero-position-main">
+          <h2 class="sectionhero-h">Enjoy Your Favorite Food From Anywhere</h2>
+          <p class="sectionhero-p">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
+          <button class="sectionhero-button" type="button">Order Now</button>
+        </div>
+        <div class="hero-position-img">
+          <img
+            class="salatlogo"
+            src="./images/salatlogo.png"
+            alt="salat"
+            width="528"
+            height="528"
+          />
+        </div>
       </section>
       <!--Секція 2-->
       <section class="section-apple">
@@ -225,14 +229,14 @@
         </ul>
       </section>
       <!--Секція 5-->
-      <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>
+      <section class="banan">
+        <h2 class="banan-subscribe">Subscribe To Get Special Offers</h2>
+        <p class="banan-text">
           Order now and receive 10% off your first meal with Enjoy Your Favorite
           Food From Anywhere.
         </p>
-        <input type="text" placeholder="Enter your email" />
-        <button type="button">Subscribe</button>
+        <input class="baban-input" type="text" placeholder="Enter your email" />
+        <button class="banan-button" type="button">Subscribe</button>
         <img src="./images/banan.png" alt="banan" />
       </section>
     </main>
@@ -240,28 +244,34 @@
       <section>
         <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
         <nav>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><button type="button">Order Now</button></li>
+          <ul class="footer-nav">
+            <li><a class="footer-nav-item" href="./index.html">Home</a></li>
+            <li><a class="footer-nav-item" href="#">About</a></li>
+            <li><a class="footer-nav-item" href="#">Service</a></li>
+            <li><a class="footer-nav-item" href="#">Menu</a></li>
+            <li><a class="footer-nav-item" href="#">Contact</a></li>
           </ul>
         </nav>
-        <p>Subscribe</p>
-        <input type="text" placeholder="Enter your email" />
-        <button type="button">Subscribe</button>
-        <p>By subscribing you agree to with our Privacy Policy</p>
+        <p class="footer-subcr">Subscribe</p>
+        <input
+          class="footer-subcr-text"
+          type="text"
+          placeholder="Enter your email"
+        />
+        <button class="footer-button" type="button">Subscribe</button>
+        <p class="footer-button-text">
+          By subscribing you agree to with our
+          <span class="footer-button-text-green">Privacy Policy</span>
+        </p>
       </section>
-      <section>
+      <article>
         <ul>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href="">Cookies Settings</a></li>
+          <li><a class="footer-link-help" href="">Privacy Policy</a></li>
+          <li><a class="footer-link-help" href="">Terms of Service</a></li>
+          <li><a class="footer-link-help" href="">Cookies Settings</a></li>
         </ul>
-        <p>2022 FoodSta. All right reserved.</p>
-      </section>
+        <p class="footer-text-end">2022 FoodSta. All right reserved.</p>
+      </article>
     </footer>
   </body>
 </html>
